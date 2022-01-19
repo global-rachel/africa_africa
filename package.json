@@ -5,7 +5,7 @@
   "homepage": "https://rachel-liaw.github.io/africa-africa",
   "scripts": {
     "serve": "TAILWIND_MODE=watch vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "TAILWIND_MODE=build vue-cli-service build",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
