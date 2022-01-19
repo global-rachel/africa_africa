@@ -62,7 +62,9 @@ export default {
     isMobile() {
       return this.$_isMobile();
     },
-    mounted() {},
+    mounted() {
+      console.log("test");
+    },
   },
 };
 </script>

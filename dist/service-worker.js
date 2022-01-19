@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.199b7b3bbf4077a31e4d040dcb364a55.js"
+  "precache-manifest.b3e9f6d47943f3a7eda519d03dbafde3.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Africa!"});
